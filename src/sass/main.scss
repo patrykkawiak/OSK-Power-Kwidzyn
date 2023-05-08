@@ -183,11 +183,7 @@ body {
 	transform: skew(-35deg);
 	width: 20%;
 	height: 100%;
-	background-image: linear-gradient(
-		-90deg,
-		rgba(255, 255, 255, 0.3),
-		rgba(255, 255, 255, 0)
-	);
+	background-image: linear-gradient(-90deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
 	transition: transform 0.8s;
 }
 .btn_hover:hover::before {
@@ -329,6 +325,10 @@ nav {
 		align-items: center;
 		font-size: 1.2rem;
 		gap: 0.5rem;
+		a {
+			color: white;
+			text-decoration: none;
+		}
 	}
 }
 .desktop-nav {
@@ -809,12 +809,26 @@ header {
 
 footer {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	height: 8rem;
 	font-size: 1.4rem;
 	background-color: $main-font-color;
 	color: white;
+	.authors {
+		display: flex;
+		gap: 0.1rem;
+		a {
+			font-size: 1.3rem;
+			text-decoration: none;
+			color: $main-color;
+		}
+	}
+	.footer-info {
+		display: flex;
+		align-items: center;
+	}
 
 	.color {
 		color: $main-color;
@@ -825,10 +839,10 @@ footer {
 		color: white;
 		transition: transform 0.3s;
 	}
-	a:hover {
+	/* a:hover {
 		transform-origin: center;
 		transform: rotate(10deg);
-	}
+	} */
 }
 
 /* warunki*/

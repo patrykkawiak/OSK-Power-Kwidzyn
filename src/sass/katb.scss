@@ -1,7 +1,6 @@
 @import 'colors.scss';
 @import 'nav.scss';
 
-
 .cat-b {
 	opacity: 0;
 	line-height: 1.8rem;
@@ -29,14 +28,12 @@
 		color: #494949;
 	}
 	.cat-b_list {
-
 		.car-img {
 			position: relative;
 			width: 100%;
 			margin-left: 1rem;
 			box-shadow: 0.7rem -0.7rem $main-color;
 		}
-		
 
 		font-size: 1.2rem;
 		margin-bottom: 5rem;
@@ -135,7 +132,6 @@
 	}
 	.cat-b {
 		.cat-b_list {
-
 			.car-img {
 				float: right;
 				width: 32rem;
