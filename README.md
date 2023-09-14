@@ -1,7 +1,7 @@
 
 # Power Kwidzyn
 
-Website for a driving Company
+Commercial Website for a driving Company
 
 🌍 Hosted page: [Power Kwidzyn](https://power-kwidzyn.pl/)
 
